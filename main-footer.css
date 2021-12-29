@@ -1,0 +1,22 @@
+.main-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    
+}
+
+.logo {
+    width: 180px;
+    height: 100px;
+}
+
+
+.main-footer .logo {
+    margin-bottom:  15px;
+   
+}
+.main-footer .title {
+    color: var(--color-white-first);
+    font-size: 15px;
+}

@@ -1,0 +1,9 @@
+.main-banner {
+    border: 8px solid var(--color-first);
+    box-shadow: 4px 4px 8px var(--color-third);
+}
+
+img .main-banner {
+    width: 200px;
+    height: 289px;
+}

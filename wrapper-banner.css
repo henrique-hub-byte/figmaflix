@@ -1,0 +1,22 @@
+.wrapper-banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    transition: 200ms transform ease-in-out;
+}
+
+.wrapper-banner:hover {
+    transform: scale(1.04);
+    transition: 400ms transform cubic-bezier(0.42, 0, .065, 1.7);
+}
+
+.wrapper-banner .main-banner {
+    margin-bottom: 10px;   
+}
+
+.wrapper-banner .main-caption {
+    width: 186px;
+    align-items:center; 
+    text-align: center; 
+} 
